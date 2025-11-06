@@ -1,2 +1,2 @@
 # syndesi.ar
-“Landing emocional para el proyecto Sýndesi
+Sitio oficial del proyecto Sýndesi – Educación emocional y acompañamiento humano
