@@ -1,0 +1,2 @@
+openai-domain-verification.txt
+Agrega archivo de verificación para OpenAI
