@@ -1,2 +1,3 @@
 # syndesi.ar
-Sitio oficial del proyecto Sýndesi – Educación emocional y acompañamiento humano
+Un refugio emocional digital. Educación emocional y presencia sin juicio.
+
