@@ -7,11 +7,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --background: #f4f1ee;
+      --background: #f7f1e8;
       --primary: #8a7b6d;
       --accent: #d4c2b0;
       --text: #3c3a36;
-      --button-text: #1a2a3a;
+      --text-highlight: #1d3557;
     }
 
     * {
@@ -32,11 +32,11 @@
 
     header {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       color: var(--primary);
     }
 
@@ -46,12 +46,11 @@
       color: var(--text);
     }
 
-    .guia {
-      max-width: 100%;
-      width: 400px;
-      margin: 2rem auto;
-      display: block;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    .image-guide {
+      max-width: 90%;
+      height: auto;
+      margin: 2rem 0;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
       border-radius: 12px;
     }
 
@@ -63,68 +62,5 @@
 
     .button {
       background-color: var(--accent);
-      color: var(--button-text);
-      padding: 1rem 2rem;
-      border: none;
-      border-radius: 1.5rem;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background 0.3s;
-      text-decoration: none;
-      text-align: center;
-    }
-
-    .button:hover {
-      background-color: var(--primary);
-      color: white;
-    }
-
-    .section {
-      max-width: 600px;
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .frase {
-      margin-top: 4rem;
-      padding: 2rem;
-      background-color: var(--accent);
-      border-radius: 1.5rem;
-      font-style: italic;
-      font-size: 1.1rem;
-      color: var(--text);
-      text-align: center;
-      max-width: 700px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Sýndesi</h1>
-    <p>No necesitás estar bien para estar acá.</p>
-  </header>
-
-  <!-- Imagen guía paso a paso -->
-  <img src="https://raw.githubusercontent.com/estudiojuridicomartinerossi/syndesi.ar/main/imagen/Syndesiacceso.png" alt="Guía paso a paso para entrar a Sýndesi" class="guia" />
-
-  <div class="buttons">
-    <a href="#" class="button">Acompañame un minuto</a>
-    <a href="#" class="button">Quiero escribir lo que siento</a>
-    <a href="#" class="button">No sé qué necesito. Solo quiero estar</a>
-  </div>
-
-  <div class="section">
-    <p>
-      Sýndesi es un espacio digital de acompañamiento emocional no clínico. Está pensado para quienes buscan un lugar de calma, introspección y contención simbólica.
-    </p>
-    <p style="margin-top: 1rem;">
-      Inspirado por valores de empatía, silencio, fe y humanidad. Sin juicios. Sin exigencias. Solo presencia.
-    </p>
-  </div>
-
-  <div class="frase">
-    “No estás roto. Estás sintiendo lo que tu historia guarda.”<br>
-    <span style="display: block; margin-top: 0.5rem; font-size: 0.9rem;">– Sýndesi</span>
-  </div>
-</body>
-</html>
+      color: var(--text-highlight);
+      pad
