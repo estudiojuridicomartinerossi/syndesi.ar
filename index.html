@@ -33,3 +33,103 @@
     header {
       text-align: center;
       margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--primary);
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      color: var(--text);
+    }
+
+    .buttons {
+      display: grid;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .button {
+      background-color: var(--accent);
+      color: var(--button-text);
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    .section {
+      max-width: 600px;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .frase {
+      margin-top: 3rem;
+      padding: 2rem;
+      background-color: var(--accent);
+      border-radius: 1.5rem;
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--text);
+      text-align: center;
+      max-width: 700px;
+    }
+
+    .img-guide {
+      max-width: 100%;
+      height: auto;
+      margin: 2rem 0;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sýndesi</h1>
+    <p>No necesitás estar bien para estar acá.</p>
+  </header>
+
+  <!-- Imagen guía paso a paso -->
+  <img src="imagen/sindesiacceso.png" alt="Guía paso a paso para entrar a Sýndesi" class="img-guide" />
+
+  <!-- Botones -->
+  <div class="buttons">
+    <a href="https://chat.openai.com/g/g-nwgbO8lJn-syndesi-educacion-emocional" target="_blank" class="button">Acompañame un minuto</a>
+    <a href="https://chat.openai.com/g/g-nwgbO8lJn-syndesi-educacion-emocional" target="_blank" class="button">Quiero escribir lo que siento</a>
+    <a href="https://chat.openai.com/g/g-nwgbO8lJn-syndesi-educacion-emocional" target="_blank" class="button">No sé qué necesito. Solo quiero estar</a>
+  </div>
+
+  <!-- Descripción -->
+  <div class="section">
+    <p>
+      Sýndesi es un espacio digital de acompañamiento emocional no clínico. Está pensado para quienes buscan un lugar de calma, introspección y contención simbólica.
+    </p>
+    <p style="margin-top: 1rem;">
+      Inspirado por valores de empatía, silencio, fe y humanidad. Sin juicios. Sin exigencias. Solo presencia.
+    </p>
+  </div>
+
+  <!-- Frase -->
+  <div class="frase">
+    “No estás roto. Estás sintiendo lo que tu historia guarda.”<br>
+    <span style="display: block; margin-top: 0.5rem; font-size: 0.9rem;">– Sýndesi</span>
+  </div>
+</body>
+</html>
